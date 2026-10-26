@@ -37,7 +37,6 @@ function showQuiz(title, description, items, imagePath, backFunction) {
 
     app.innerHTML = `
         <div class="page">
-            <button class="back-button" onclick="${backFunction}()">← Back</button>
 
             <h1>${title}</h1>
             <p>${description}</p>
